@@ -18,11 +18,11 @@ for 값 in 상자:
 
 for 값 in 상자:
     if 값 == "사과":
-        냉장실.append(값)
+        print(f"'{값}' 냉장실에 넣기")
     elif 값 == "아이스크림":
-        냉동실.append(값)
+        print(f"'{값}' 냉동실에 넣기")
     else:
-        pass
-print(상자)
-print(냉장실)
-print(냉동실)
+        print(f"'{값}'은 폐기 처분")
+
+#f-string
+#문자와 변수를 혼재해서 문자열로 바꾸고 싶을때!
